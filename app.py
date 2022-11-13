@@ -15,6 +15,9 @@ load_figure_template("quartz")
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ, dbc.icons.FONT_AWESOME])
+
+server=app.server
+
 app.layout = dbc.Container([
 
 dbc.Row([
